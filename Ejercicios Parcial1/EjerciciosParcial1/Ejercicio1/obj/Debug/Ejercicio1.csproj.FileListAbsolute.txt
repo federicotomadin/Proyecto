@@ -1,0 +1,14 @@
+D:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\bin\Debug\Ejercicio1.exe.config
+D:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\bin\Debug\Ejercicio1.exe
+D:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\bin\Debug\Ejercicio1.pdb
+D:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\obj\Debug\Ejercicio1.exe
+D:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\obj\Debug\Ejercicio1.pdb
+E:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\bin\Debug\Ejercicio1.exe.config
+E:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\obj\Debug\Ejercicio1.exe
+E:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\obj\Debug\Ejercicio1.pdb
+E:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\bin\Debug\Ejercicio1.exe
+E:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\bin\Debug\Ejercicio1.pdb
+E:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\obj\Debug\Ejercicio1.csprojResolveAssemblyReference.cache
+C:\Users\sam\Desktop\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\bin\Debug\Ejercicio1.exe.config
+C:\Users\sam\Desktop\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\obj\Debug\Ejercicio1.exe
+C:\Users\sam\Desktop\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\obj\Debug\Ejercicio1.pdb

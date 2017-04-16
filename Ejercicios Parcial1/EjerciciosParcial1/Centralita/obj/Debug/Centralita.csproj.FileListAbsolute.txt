@@ -1,0 +1,7 @@
+D:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Centralita\bin\Debug\Centralita.exe.config
+E:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Centralita\bin\Debug\Centralita.exe.config
+E:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Centralita\obj\Debug\Centralita.csprojResolveAssemblyReference.cache
+E:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Centralita\bin\Debug\Centralita.exe
+E:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Centralita\bin\Debug\Centralita.pdb
+E:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Centralita\obj\Debug\Centralita.exe
+E:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Centralita\obj\Debug\Centralita.pdb

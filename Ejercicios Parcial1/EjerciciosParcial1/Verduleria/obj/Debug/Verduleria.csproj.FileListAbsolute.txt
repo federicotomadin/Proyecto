@@ -1,0 +1,6 @@
+D:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Verduleria\bin\Debug\Verduleria.exe.config
+D:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Verduleria\bin\Debug\Verduleria.exe
+D:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Verduleria\bin\Debug\Verduleria.pdb
+D:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Verduleria\obj\Debug\Verduleria.csprojResolveAssemblyReference.cache
+D:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Verduleria\obj\Debug\Verduleria.exe
+D:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Verduleria\obj\Debug\Verduleria.pdb

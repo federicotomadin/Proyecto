@@ -1,0 +1,6 @@
+D:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Banco\bin\Debug\Banco.exe.config
+D:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Banco\bin\Debug\Banco.exe
+D:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Banco\bin\Debug\Banco.pdb
+D:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Banco\obj\Debug\Banco.csprojResolveAssemblyReference.cache
+D:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Banco\obj\Debug\Banco.exe
+D:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Banco\obj\Debug\Banco.pdb
