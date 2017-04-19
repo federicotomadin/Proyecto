@@ -62,6 +62,7 @@ namespace ClassLibrary1
 
 
      public static bool operator ==(Paleta paleta,Tempera tempera)
+     
      {
          for (int i = 0; i < paleta._cantidadMaximaColores; i++)
          {
@@ -82,13 +83,15 @@ namespace ClassLibrary1
 
      public static Paleta operator +(Paleta paleta, Tempera temp)
      {
-         if (paleta == temp) temp += 1;
+         
+         if (paleta == temp) paleta._colores[paleta.obtenerIndice(temp)] += temp;
 
 
 
-         else paleta._colores[paleta.obtenerIndice()] = temp;
+         else if (paleta.obtenerIndice() > -1)
 
-
+             paleta._colores[paleta.obtenerIndice()] = temp;
+             
 
          return paleta;            
        
@@ -97,15 +100,14 @@ namespace ClassLibrary1
 
      public static Paleta operator -(Paleta paleta, Tempera temp)
      {
-         int index=0;
+       
          if (paleta == temp)
          {
-             paleta._colores.GetValue(index);
-             if (temp.Cantidad > 0) temp -= 1;
-
-             else paleta._colores[index] = null;
-
+             paleta._colores[paleta.obtenerIndice(temp)] += (-temp);
+                     
          }
+         if (paleta._colores[paleta.obtenerIndice(temp)] < 0)
+             paleta._colores[paleta.obtenerIndice(temp)] = null;
 
          return paleta;
         

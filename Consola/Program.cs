@@ -15,7 +15,7 @@ namespace Consola
         {
 
             Tempera tempera1 = new Tempera(ConsoleColor.Black, "Marca1", 10);
-            Tempera tempera2 = new Tempera(ConsoleColor.Black, "Marca2", 11);
+            Tempera tempera2 = new Tempera(ConsoleColor.Black, "Marca1", 5);
 
              Tempera tempera3 = new Tempera(ConsoleColor.Black, "Marca3", 11);
              Tempera tempera4 = new Tempera(ConsoleColor.Black, "Marca4", 11);
@@ -40,8 +40,8 @@ namespace Consola
             paleta += tempera1;
             paleta += tempera1;
 
-            paleta2 += tempera1;
-            paleta2 += tempera1;
+            //paleta2 += tempera1;
+            //paleta2 += tempera1;
 
             Console.WriteLine((string)tempera1);
 
@@ -53,13 +53,18 @@ namespace Consola
 
             Console.ReadLine();
 
+            Console.WriteLine("Sumando las paletas");
             paleta += paleta2;
-
             Console.WriteLine((string)paleta);
-
             Console.ReadLine();
 
+            
 
+            Console.WriteLine("Restando las paletas");
+
+            paleta -= tempera1;
+            Console.WriteLine((string)paleta);
+            Console.ReadLine();
 
 
 

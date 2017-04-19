@@ -21,12 +21,6 @@ namespace ClassLibrary1
            this._cantidad=cantidad;
        }
 
-       public int Cantidad
-       {
-           get { return this._cantidad; }
-       }
- 
-
        /// <summary>
        /// Metodo privado de intantcia
        /// </summary>
@@ -92,7 +86,7 @@ namespace ClassLibrary1
 
     public static Tempera operator +(Tempera temp1, Tempera temp2)
     {
-        if (temp1 == temp2) temp1._cantidad++;
+        if (temp1 == temp2) temp1._cantidad+=temp2._cantidad;
         
 
         return temp1;
@@ -107,12 +101,6 @@ namespace ClassLibrary1
 
 
 
-   public static Tempera operator -(Tempera temp, int entero)
-   {
-       temp._cantidad -= entero;
-
-       return temp;
-   }
 
 
     }
