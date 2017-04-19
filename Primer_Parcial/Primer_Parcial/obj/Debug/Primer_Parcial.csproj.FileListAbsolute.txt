@@ -1,0 +1,8 @@
+c:\users\sam\documents\visual studio 2013\Projects\Primer_Parcial\Primer_Parcial\bin\Debug\Primer_Parcial.exe.config
+c:\users\sam\documents\visual studio 2013\Projects\Primer_Parcial\Primer_Parcial\bin\Debug\Primer_Parcial.exe
+c:\users\sam\documents\visual studio 2013\Projects\Primer_Parcial\Primer_Parcial\bin\Debug\Primer_Parcial.pdb
+c:\users\sam\documents\visual studio 2013\Projects\Primer_Parcial\Primer_Parcial\bin\Debug\Entidades.dll
+c:\users\sam\documents\visual studio 2013\Projects\Primer_Parcial\Primer_Parcial\bin\Debug\Entidades.pdb
+c:\users\sam\documents\visual studio 2013\Projects\Primer_Parcial\Primer_Parcial\obj\Debug\Primer_Parcial.csprojResolveAssemblyReference.cache
+c:\users\sam\documents\visual studio 2013\Projects\Primer_Parcial\Primer_Parcial\obj\Debug\Primer_Parcial.exe
+c:\users\sam\documents\visual studio 2013\Projects\Primer_Parcial\Primer_Parcial\obj\Debug\Primer_Parcial.pdb
