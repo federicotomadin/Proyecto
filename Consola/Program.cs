@@ -40,14 +40,14 @@ namespace Consola
             paleta += tempera1;
             paleta += tempera1;
 
-            paleta2 += tempera3;
-            paleta2 += tempera4;
+            paleta2 += tempera1;
+            paleta2 += tempera1;
 
             Console.WriteLine((string)tempera1);
 
             Console.ReadLine();
 
-            paleta += tempera2;
+            //paleta += tempera2;
 
             Console.WriteLine((string)paleta);
 

@@ -127,9 +127,9 @@ namespace ClassLibrary1
              {
                  if (paleta2._colores.GetValue(j) != null)
 
-                 if (paleta1 == paleta2._colores[j]) paleta2._colores[j] += 1;
+               
 
-                 else paletaNueva += paleta2._colores[j];
+                  paletaNueva += paleta2._colores[j];
              }
 
          

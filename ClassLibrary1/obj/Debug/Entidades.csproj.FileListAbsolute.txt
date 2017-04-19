@@ -8,3 +8,8 @@ C:\Users\sam\Desktop\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
 C:\Users\sam\Desktop\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
 C:\Users\sam\Desktop\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
 C:\Users\sam\Desktop\ClassLibrary1\ClassLibrary1\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Proyecto\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\alumno\Desktop\Proyecto\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\alumno\Desktop\Proyecto\ClassLibrary1\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Proyecto\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\alumno\Desktop\Proyecto\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
