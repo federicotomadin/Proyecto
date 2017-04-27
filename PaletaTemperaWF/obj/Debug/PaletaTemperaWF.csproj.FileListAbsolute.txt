@@ -1,0 +1,13 @@
+C:\Users\alumno\Desktop\Proyecto\PaletaTemperaWF\bin\Debug\PaletaTemperaWF.exe.config
+C:\Users\alumno\Desktop\Proyecto\PaletaTemperaWF\bin\Debug\PaletaTemperaWF.exe
+C:\Users\alumno\Desktop\Proyecto\PaletaTemperaWF\bin\Debug\PaletaTemperaWF.pdb
+C:\Users\alumno\Desktop\Proyecto\PaletaTemperaWF\bin\Debug\ClassLibrary1.dll
+C:\Users\alumno\Desktop\Proyecto\PaletaTemperaWF\bin\Debug\ClassLibrary1.pdb
+C:\Users\alumno\Desktop\Proyecto\PaletaTemperaWF\obj\Debug\PaletaTemperaWF.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Proyecto\PaletaTemperaWF\obj\Debug\PaletaTemperaWF.FrmPrincipal.resources
+C:\Users\alumno\Desktop\Proyecto\PaletaTemperaWF\obj\Debug\PaletaTemperaWF.Properties.Resources.resources
+C:\Users\alumno\Desktop\Proyecto\PaletaTemperaWF\obj\Debug\PaletaTemperaWF.csproj.GenerateResource.Cache
+C:\Users\alumno\Desktop\Proyecto\PaletaTemperaWF\obj\Debug\PaletaTemperaWF.exe
+C:\Users\alumno\Desktop\Proyecto\PaletaTemperaWF\obj\Debug\PaletaTemperaWF.pdb
+C:\Users\alumno\Desktop\Proyecto\PaletaTemperaWF\obj\Debug\PaletaTemperaWF.FrmTempera.resources
+C:\Users\alumno\Desktop\Proyecto\PaletaTemperaWF\obj\Debug\PaletaTemperaWF.FrmMostrar.resources
