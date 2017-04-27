@@ -1,0 +1,9 @@
+D:\VisualStudio\Entidades\Entidades\bin\Debug\Entidades.exe.config
+D:\VisualStudio\Entidades\Entidades\bin\Debug\Entidades.exe
+D:\VisualStudio\Entidades\Entidades\bin\Debug\Entidades.pdb
+D:\VisualStudio\Entidades\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\VisualStudio\Entidades\Entidades\obj\Debug\Entidades.exe
+D:\VisualStudio\Entidades\Entidades\obj\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\Proyecto\ClaseHerencia\Entidades\bin\Debug\Entidades.exe.config
+C:\Users\alumno\Desktop\Proyecto\ClaseHerencia\Entidades\obj\Debug\Entidades.exe
+C:\Users\alumno\Desktop\Proyecto\ClaseHerencia\Entidades\obj\Debug\Entidades.pdb
