@@ -120,7 +120,7 @@ namespace ClassLibrary1
     
          Paleta paletaNueva = new Paleta(paleta1._cantidadMaximaColores + paleta2._cantidadMaximaColores);
 
-         for (int i = 0; i < paleta2._cantidadMaximaColores; i++)
+         for (int i = 0; i < paleta1._cantidadMaximaColores; i++)
          {
              if (paleta1._colores.GetValue(i) != null) paletaNueva += paleta1._colores[i];
          }

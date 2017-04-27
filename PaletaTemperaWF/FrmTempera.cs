@@ -30,9 +30,7 @@ namespace PaletaTemperaWF
                
             
         }
-
-
-       
+     
 
         public Tempera Tempera
         {
@@ -43,7 +41,8 @@ namespace PaletaTemperaWF
 
         private void FrmTempera_Load(object sender, EventArgs e)
         {
-
+            btnAceptar.Enabled = false;
+           
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -58,19 +57,18 @@ namespace PaletaTemperaWF
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (this.txtCantidad.Text != "" && this.txtMarca.Text != "")
-            {
- 
-            }
-            
-            
-            
+                            
             this._tempera= new Tempera((ConsoleColor)cmbColor.SelectedItem,this.txtMarca.Text,Int32.Parse(txtCantidad.Text));
             this.DialogResult = System.Windows.Forms.DialogResult.OK;
             MessageBox.Show("La tempera se guardo correctamente", "Se guardo", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
              this.Close();
             
+        }
+
+        private void txtMarca_TextChanged(object sender, EventArgs e)
+        {
+          
         }
     }
 }

@@ -58,6 +58,7 @@ namespace PaletaTemperaWF
                 this._temperas.RemoveAt(this.listMostrar.SelectedIndex);
             }
             this.listMostrar.Items.Clear();
+            this.RefrescarLista(_temperas);
             
         }
 

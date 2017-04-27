@@ -25,3 +25,11 @@ C:\Users\alumno\Desktop\Proyecto\Consola\bin\Debug\Consola.pdb
 C:\Users\alumno\Desktop\Proyecto\Consola\bin\Debug\ClassLibrary1.dll
 C:\Users\alumno\Desktop\Proyecto\Consola\bin\Debug\ClassLibrary1.pdb
 C:\Users\alumno\Desktop\Proyecto\Consola\obj\Debug\Consola.csprojResolveAssemblyReference.cache
+C:\Users\sam\Desktop\Proyecto\Consola\bin\Debug\Consola.exe.config
+C:\Users\sam\Desktop\Proyecto\Consola\obj\Debug\Consola.exe
+C:\Users\sam\Desktop\Proyecto\Consola\obj\Debug\Consola.pdb
+C:\Users\sam\Desktop\Proyecto\Consola\bin\Debug\Consola.exe
+C:\Users\sam\Desktop\Proyecto\Consola\bin\Debug\Consola.pdb
+C:\Users\sam\Desktop\Proyecto\Consola\bin\Debug\ClassLibrary1.dll
+C:\Users\sam\Desktop\Proyecto\Consola\bin\Debug\ClassLibrary1.pdb
+C:\Users\sam\Desktop\Proyecto\Consola\obj\Debug\Consola.csprojResolveAssemblyReference.cache
