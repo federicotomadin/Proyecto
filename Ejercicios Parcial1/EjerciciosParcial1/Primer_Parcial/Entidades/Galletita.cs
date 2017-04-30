@@ -17,12 +17,12 @@ namespace Entidades
        }
 
 
-          public string MostrarGalletita(Galletita galletita)
+          public static string MostrarGalletita(Galletita galletita)
           {
               StringBuilder sb = new StringBuilder();
 
-              sb.AppendLine("Peso de la galleta" + galletita._peso);
-              sb.AppendLine(base.MostrarProducto(galletita));
+              sb.AppendLine("Peso de la galleta   " + galletita._peso);
+              sb.AppendLine(galletita.MostrarProducto(galletita));
 
               return sb.ToString();
 

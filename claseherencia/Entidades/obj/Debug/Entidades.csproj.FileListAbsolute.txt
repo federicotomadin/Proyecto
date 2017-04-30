@@ -7,3 +7,6 @@ D:\VisualStudio\Entidades\Entidades\obj\Debug\Entidades.pdb
 C:\Users\alumno\Desktop\Proyecto\ClaseHerencia\Entidades\bin\Debug\Entidades.exe.config
 C:\Users\alumno\Desktop\Proyecto\ClaseHerencia\Entidades\obj\Debug\Entidades.exe
 C:\Users\alumno\Desktop\Proyecto\ClaseHerencia\Entidades\obj\Debug\Entidades.pdb
+C:\Users\sam\Desktop\Proyecto\claseherencia\Entidades\bin\Debug\Entidades.exe.config
+C:\Users\sam\Desktop\Proyecto\claseherencia\Entidades\obj\Debug\Entidades.exe
+C:\Users\sam\Desktop\Proyecto\claseherencia\Entidades\obj\Debug\Entidades.pdb

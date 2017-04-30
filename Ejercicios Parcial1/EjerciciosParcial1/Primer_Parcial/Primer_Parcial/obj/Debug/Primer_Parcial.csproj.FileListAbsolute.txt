@@ -6,3 +6,11 @@ c:\users\sam\documents\visual studio 2013\Projects\Primer_Parcial\Primer_Parcial
 c:\users\sam\documents\visual studio 2013\Projects\Primer_Parcial\Primer_Parcial\obj\Debug\Primer_Parcial.csprojResolveAssemblyReference.cache
 c:\users\sam\documents\visual studio 2013\Projects\Primer_Parcial\Primer_Parcial\obj\Debug\Primer_Parcial.exe
 c:\users\sam\documents\visual studio 2013\Projects\Primer_Parcial\Primer_Parcial\obj\Debug\Primer_Parcial.pdb
+C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Primer_Parcial\Primer_Parcial\bin\Debug\Primer_Parcial.exe.config
+C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Primer_Parcial\Primer_Parcial\obj\Debug\Primer_Parcial.exe
+C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Primer_Parcial\Primer_Parcial\obj\Debug\Primer_Parcial.pdb
+C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Primer_Parcial\Primer_Parcial\bin\Debug\Primer_Parcial.exe
+C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Primer_Parcial\Primer_Parcial\bin\Debug\Primer_Parcial.pdb
+C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Primer_Parcial\Primer_Parcial\bin\Debug\Entidades.dll
+C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Primer_Parcial\Primer_Parcial\bin\Debug\Entidades.pdb
+C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Primer_Parcial\Primer_Parcial\obj\Debug\Primer_Parcial.csprojResolveAssemblyReference.cache
