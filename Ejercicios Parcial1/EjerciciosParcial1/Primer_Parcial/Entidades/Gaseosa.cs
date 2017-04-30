@@ -10,12 +10,31 @@ namespace Entidades
     {
 
        private float _litros;
+       public static bool DeConsumo;
 
+
+       static Gaseosa()
+       {
+           DeConsumo=true;
+       }
            public Gaseosa(int codigo, EMarcaProducto marca, float precio, float litros)
            : base(codigo,marca,precio)
        {
           this._litros=litros;
        }
+
+           public override string Consumir()
+           {
+               return "Bebible";
+           }
+
+
+           public override float CalcularCostoDeProduccion
+           {
+
+               get { return base._precio * (float)0.42; }
+           }
+       
 
 
            public Gaseosa(Producto producto, float litros):this((int)producto,producto.Marca,producto.Precio,litros)
@@ -25,14 +44,19 @@ namespace Entidades
            }
 
 
-           public string MostrarGaseosa()
+           private string MostrarGaseosa()
            {
                StringBuilder sb = new StringBuilder();
 
                sb.AppendLine("Litros " + this._litros);
-               sb.AppendLine(base.MostrarProducto(this));
+               sb.AppendLine(base.ToString());
 
                return sb.ToString();
+           }
+
+           public override string ToString()
+           {
+               return this.MostrarGaseosa();
            }
     }
 }

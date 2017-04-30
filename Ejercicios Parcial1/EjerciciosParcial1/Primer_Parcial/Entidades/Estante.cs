@@ -91,8 +91,8 @@ namespace Entidades
 
           foreach (Producto item in _productos)
           {
-              if (item is Gaseosa) sb.AppendLine(((Gaseosa)item).MostrarGaseosa());
-                if (item is Galletita) sb.AppendLine(Galletita.MostrarGalletita((Galletita)(item)));
+              if (item is Gaseosa) sb.AppendLine(item.ToString());
+                if (item is Galletita) sb.AppendLine(item.ToString());
                if (item is Jugo) sb.AppendLine(((Jugo)item).MostrarJugo());
           }
 

@@ -14,7 +14,12 @@ namespace Entidades
        }
 
        private ESaborJugo _sabor;
+       public static bool DeConsumo;
 
+       static Jugo()
+       {
+           DeConsumo = true;
+       }
 
        public Jugo(int codigo, EMarcaProducto marca, float precio, ESaborJugo sabor)
            : base(codigo,marca,precio)
@@ -23,12 +28,20 @@ namespace Entidades
        }
 
 
+       public override float CalcularCostoDeProduccion
+       {
+       
+          get { return base._precio*(float)0.40; }
+       }
+       
+
+
        public string MostrarJugo()
        {
            StringBuilder sb = new StringBuilder();
 
            sb.AppendLine("Sabor " + this._sabor);
-           sb.AppendLine(base.MostrarProducto(this));
+           sb.AppendLine(base.ToString());
 
            return sb.ToString();
 

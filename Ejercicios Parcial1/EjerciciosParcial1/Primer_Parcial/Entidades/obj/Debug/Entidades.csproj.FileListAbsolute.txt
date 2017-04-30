@@ -5,6 +5,5 @@ c:\users\sam\documents\visual studio 2013\Projects\Primer_Parcial\Entidades\obj\
 c:\users\sam\documents\visual studio 2013\Projects\Primer_Parcial\Entidades\obj\Debug\Entidades.pdb
 C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Primer_Parcial\Entidades\bin\Debug\Entidades.dll
 C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Primer_Parcial\Entidades\bin\Debug\Entidades.pdb
-C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Primer_Parcial\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
 C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Primer_Parcial\Entidades\obj\Debug\Entidades.dll
 C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Primer_Parcial\Entidades\obj\Debug\Entidades.pdb

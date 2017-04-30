@@ -28,8 +28,9 @@ namespace Primer_Parcial
         {
 
             Galletita galleta1 = new Galletita(12226, Gaseosa.EMarcaProducto.Manaos, 50, 2);
+            Galletita galleta2 = new Galletita(12226, Gaseosa.EMarcaProducto.Manaos, 50, 2);
 
-            Console.WriteLine(Galletita.MostrarGalletita(galleta1));
+            Console.WriteLine(galleta1.ToString());
 
             Console.ReadLine();
 
