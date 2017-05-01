@@ -11,7 +11,7 @@ namespace Entidades
 
        public enum ETipoProducto
        {
-           Galletita, Gaseosa, Jugo, Todos
+           Galletita, Gaseosa, Jugo, Harina,Todos
        }
 
        public enum EMarcaProducto

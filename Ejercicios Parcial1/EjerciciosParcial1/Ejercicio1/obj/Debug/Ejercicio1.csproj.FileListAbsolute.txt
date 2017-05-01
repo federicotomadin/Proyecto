@@ -12,3 +12,6 @@ E:\PROG 2 C#\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\obj\Debug\Ejercic
 C:\Users\sam\Desktop\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\bin\Debug\Ejercicio1.exe.config
 C:\Users\sam\Desktop\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\obj\Debug\Ejercicio1.exe
 C:\Users\sam\Desktop\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\obj\Debug\Ejercicio1.pdb
+C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\bin\Debug\Ejercicio1.exe.config
+C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\obj\Debug\Ejercicio1.exe
+C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Ejercicio1\obj\Debug\Ejercicio1.pdb

@@ -31,7 +31,7 @@ namespace Entidades
        public override float CalcularCostoDeProduccion
        {
        
-          get { return base._precio*+(float)1.40; }
+          get { return base._precio*=(float)0.40; }
        }
        
 
@@ -41,7 +41,7 @@ namespace Entidades
            StringBuilder sb = new StringBuilder();
 
            sb.AppendLine("Sabor " + this._sabor);
-           sb.AppendLine(base.ToString());
+           sb.AppendLine(this);
 
            return sb.ToString();
 

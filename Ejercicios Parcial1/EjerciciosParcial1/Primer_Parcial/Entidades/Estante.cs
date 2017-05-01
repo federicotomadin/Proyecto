@@ -59,19 +59,25 @@ namespace Entidades
           float galletita = 0;
           float jugo = 0;
           float gaseosa = 0;
+          float harina = 0;
           float resultado=0;
+
 
           foreach (Producto item in _productos)
           {
               if (item is Galletita)
                   galletita += item.Precio;
+             
               if (item is Jugo)
                   jugo += item.Precio;
               if (item is Gaseosa)
                   gaseosa += item.Precio;
+              if (item is Harina)
+                  harina += item.Precio;
 
           }
 
+          if (tipo == Galletita.ETipoProducto.Harina) resultado = harina;
           if (tipo == Producto.ETipoProducto.Galletita) resultado= galletita;
           if (tipo == Producto.ETipoProducto.Gaseosa) resultado = gaseosa;
           if (tipo == Producto.ETipoProducto.Jugo) resultado = jugo;
@@ -104,8 +110,12 @@ namespace Entidades
       {
           foreach (Producto item in est._productos)          
           {
-              if (item == prod) return true;
-              break;
+              if (item == prod)
+              {
+                  return true;
+                  break;
+              }
+             
           }
 
           return false;
@@ -118,17 +128,18 @@ namespace Entidades
 
       public static bool operator +(Estante est, Producto prod)
       {
-          if (est != prod)
-          {
-              if (est._productos.Count < est._capacidad)
+          if (est == prod) return false;
+          
+              else if (est._productos.Count < est._capacidad)
               {
                   est._productos.Add(prod);
                   return true;
 
               }
-          }
+          return false;
+          
 
-           return false;
+           
       }
 
 
@@ -144,12 +155,27 @@ namespace Entidades
 
       public static Estante operator -(Estante est, Producto.ETipoProducto tipo)
       {
+          Estante aux = new Estante((sbyte)est._productos.Count);
+
           foreach (Producto item in est._productos)
           {
-              if ((Producto.ETipoProducto)item.Marca == tipo) est -= item;
+              if (item is Galletita && tipo != Producto.ETipoProducto.Galletita) aux._productos.Add(item);
+              if (item is Harina && tipo != Producto.ETipoProducto.Gaseosa) aux._productos.Add(item);
+
+              if (item is Jugo && tipo != Producto.ETipoProducto.Jugo) aux._productos.Add(item);
+              if (item is Gaseosa && tipo != Producto.ETipoProducto.Gaseosa) aux._productos.Add(item);
+
+
           }
 
-          return est;
+          if (tipo == Producto.ETipoProducto.Todos)
+          {
+              est._productos.Clear();
+              return est;
+          }
+
+
+          else return aux;
       }
 
 
