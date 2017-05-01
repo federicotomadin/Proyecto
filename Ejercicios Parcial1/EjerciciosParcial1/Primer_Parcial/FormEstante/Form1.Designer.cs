@@ -1,6 +1,6 @@
 ﻿namespace FormEstante
 {
-    partial class Form1
+    partial class FormEstante
     {
         /// <summary>
         /// Required designer variable.
@@ -61,7 +61,7 @@
             this.rtxtSalida.TabIndex = 3;
             this.rtxtSalida.Text = "";
             // 
-            // Form1
+            // FormEstante
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -69,8 +69,9 @@
             this.Controls.Add(this.rtxtSalida);
             this.Controls.Add(this.btnOrdenar);
             this.Controls.Add(this.btnEjecutar);
-            this.Name = "Form1";
+            this.Name = "FormEstante";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }

@@ -48,8 +48,8 @@ namespace Entidades
            {
                StringBuilder sb = new StringBuilder();
 
-               sb.AppendLine("Litros " + this._litros);
-               sb.AppendLine(base.ToString());
+               //sb.AppendLine("Litros " + this._litros);
+               sb.AppendLine(base.ToString() + "Litros " + this._litros);
 
                return sb.ToString();
            }

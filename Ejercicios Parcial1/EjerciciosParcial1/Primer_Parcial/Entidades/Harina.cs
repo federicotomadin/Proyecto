@@ -41,10 +41,10 @@ namespace Entidades
       private  string MostrarHarina()
       {
         StringBuilder sb = new StringBuilder();
-
+          
        
-        sb.AppendLine(this);
-        sb.AppendLine("TIPO " + this._tipo);
+        sb.AppendLine(this + "TIPO " + this._tipo);
+        //sb.AppendLine("TIPO " + this._tipo);
 
          return sb.ToString();
 

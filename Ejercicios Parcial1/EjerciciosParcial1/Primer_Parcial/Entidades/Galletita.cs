@@ -38,9 +38,9 @@ namespace Entidades
 
           private static string MostrarGalletita(Galletita galletita)
           {
-              StringBuilder sb = new StringBuilder();            
-              sb.AppendLine(galletita);
-              sb.AppendLine("Peso de la galleta   " + galletita._peso);
+              StringBuilder sb = new StringBuilder();
+              sb.AppendLine(galletita + "Peso de la galleta   " + galletita._peso);
+              //sb.AppendLine("Peso de la galleta   " + galletita._peso);
 
               return sb.ToString();
 
