@@ -7,3 +7,4 @@ C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Primer_Parc
 C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Primer_Parcial\Entidades\bin\Debug\Entidades.pdb
 C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Primer_Parcial\Entidades\obj\Debug\Entidades.dll
 C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Primer_Parcial\Entidades\obj\Debug\Entidades.pdb
+C:\Users\sam\Desktop\Proyecto\Ejercicios Parcial1\EjerciciosParcial1\Primer_Parcial\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache

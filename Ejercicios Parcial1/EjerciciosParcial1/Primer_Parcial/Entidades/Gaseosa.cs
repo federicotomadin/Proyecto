@@ -32,7 +32,7 @@ namespace Entidades
            public override float CalcularCostoDeProduccion
            {
 
-               get { return base._precio * (float)0.42; }
+               get { return base._precio *+ (float)1.42; }
            }
        
 

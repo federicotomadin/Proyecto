@@ -21,7 +21,7 @@ namespace Entidades
            DeConsumo = true;
        }
 
-       public Jugo(int codigo, EMarcaProducto marca, float precio, ESaborJugo sabor)
+       public Jugo(int codigo,float precio, EMarcaProducto marca, ESaborJugo sabor)
            : base(codigo,marca,precio)
        {
            this._sabor = sabor;
@@ -31,7 +31,7 @@ namespace Entidades
        public override float CalcularCostoDeProduccion
        {
        
-          get { return base._precio*(float)0.40; }
+          get { return base._precio*+(float)1.40; }
        }
        
 

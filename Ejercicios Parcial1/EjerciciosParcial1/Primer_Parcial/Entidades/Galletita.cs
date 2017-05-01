@@ -17,7 +17,7 @@ namespace Entidades
             DeConsumo = true;
         }
 
-          public Galletita(int codigo, EMarcaProducto marca, float precio, float peso)
+        public Galletita(int codigo, float precio, EMarcaProducto marca, float peso)
            : base(codigo,marca,precio)
        {
            this._peso=peso;
@@ -31,17 +31,16 @@ namespace Entidades
           public override float CalcularCostoDeProduccion
           {
 
-              get { return base._precio * (float)0.33; }
+              get { return base._precio *+ (float)1.33; }
           }
        
 
 
           private static string MostrarGalletita(Galletita galletita)
           {
-              StringBuilder sb = new StringBuilder();
-
-              sb.AppendLine("Peso de la galleta   " + galletita._peso);
+              StringBuilder sb = new StringBuilder();            
               sb.AppendLine(galletita);
+              sb.AppendLine("Peso de la galleta   " + galletita._peso);
 
               return sb.ToString();
 

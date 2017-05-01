@@ -5,19 +5,18 @@ using System.Text;
 using System.Threading.Tasks;
 
 
+
+
 namespace Entidades
 {
   public   class Estante
     {
 
-      public enum ETipoProducto
-      {
-          Galletita, Gaseosa, Jugo,Todos
-      }
+   
 
 
-      private sbyte _capacidad;
-      private List<Producto> _productos;
+      protected sbyte _capacidad;
+      protected  List<Producto> _productos;
 
 
         public float ValorEstanteTotal
@@ -25,7 +24,7 @@ namespace Entidades
           get { return GetValorEstante(); }
       }
 
-      public Estante()
+      private Estante()
       {
           this._productos = new List<Producto>();
       }
@@ -55,7 +54,7 @@ namespace Entidades
           return acumulador;
       }
 
-      public float GetValorEstante(ETipoProducto tipo)
+      public float GetValorEstante(Producto.ETipoProducto tipo)
       {
           float galletita = 0;
           float jugo = 0;
@@ -73,26 +72,27 @@ namespace Entidades
 
           }
 
-          if (tipo == ETipoProducto.Galletita) resultado= galletita;
-          if (tipo == ETipoProducto.Gaseosa) resultado=gaseosa;
-          if (tipo == ETipoProducto.Jugo) resultado= jugo;
-          if (tipo == ETipoProducto.Todos) return this.GetValorEstante();
+          if (tipo == Producto.ETipoProducto.Galletita) resultado= galletita;
+          if (tipo == Producto.ETipoProducto.Gaseosa) resultado = gaseosa;
+          if (tipo == Producto.ETipoProducto.Jugo) resultado = jugo;
+          if (tipo == Producto.ETipoProducto.Todos) return this.GetValorEstante();
 
           return resultado;
       }
 
           
 
-      public string MostrarEstante(Estante est)
+      public static string MostrarEstante(Estante est)
       {
           StringBuilder sb = new StringBuilder();
 
-          sb.AppendLine("Capacidad" + est._capacidad);
+          sb.AppendLine("Capacidad  " + est._capacidad);
 
-          foreach (Producto item in _productos)
+          foreach (Producto item in est._productos)
           {
-              if (item is Gaseosa) sb.AppendLine(item.ToString());
-                if (item is Galletita) sb.AppendLine(item.ToString());
+              if (item is Harina) sb.AppendLine(((Harina)item).ToString());
+              if (item is Gaseosa) sb.AppendLine(((Gaseosa)item).ToString());
+                if (item is Galletita) sb.AppendLine(((Galletita)item).ToString());
                if (item is Jugo) sb.AppendLine(((Jugo)item).MostrarJugo());
           }
 
@@ -122,7 +122,7 @@ namespace Entidades
           {
               if (est._productos.Count < est._capacidad)
               {
-
+                  est._productos.Add(prod);
                   return true;
 
               }
@@ -131,11 +131,6 @@ namespace Entidades
            return false;
       }
 
-      public void AgregarProducto(Producto prod)
-      {
-          if (this + prod) this._productos.Add(prod);
-
-      }
 
       public static Estante operator -(Estante est, Producto prod)
       {
@@ -147,11 +142,11 @@ namespace Entidades
       }
 
 
-      public static Estante operator -(Estante est, ETipoProducto tipo)
+      public static Estante operator -(Estante est, Producto.ETipoProducto tipo)
       {
           foreach (Producto item in est._productos)
           {
-              if ((ETipoProducto)item.Marca == tipo) est -= item;
+              if ((Producto.ETipoProducto)item.Marca == tipo) est -= item;
           }
 
           return est;
@@ -159,5 +154,7 @@ namespace Entidades
 
 
 
+
+     
     }
 }

@@ -8,9 +8,15 @@ namespace Entidades
 {
    public abstract  class Producto
     {
+
+       public enum ETipoProducto
+       {
+           Galletita, Gaseosa, Jugo, Todos
+       }
+
        public enum EMarcaProducto
        {
-           Manaos,Pitusas,Naranju,Diversion,Swift
+           Manaos,Pitusas,Naranjú,Diversión,Swift,Favorita
        }
 
        #region Atributos
@@ -60,8 +66,9 @@ namespace Entidades
        {
            StringBuilder sb = new StringBuilder();
 
-           sb.AppendLine("Codigo de barra " + prod._codigoBarra);
+
            sb.AppendLine("Marca " + prod.Marca);
+           sb.AppendLine("Codigo de barra " + prod._codigoBarra);
            sb.AppendLine("Precio " + prod.Precio);
 
 
