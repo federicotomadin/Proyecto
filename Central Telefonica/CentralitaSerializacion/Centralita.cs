@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
+using System.Xml.Serialization;
+using System.IO;
 
 namespace CentralitaSerializacion
 {
@@ -138,20 +141,66 @@ namespace CentralitaSerializacion
        }
 
 
-       public bool DeSerializable()
+       public bool DeSerializarse()
        {
+           bool flag = false;
+
+            try
+            {
+               FileStream fs = new FileStream(@"E:\serializado.xml", FileMode.Open);
+               XmlSerializer DeSerializado = new XmlSerializer(typeof(Centralita));
+               Centralita central = (Centralita)DeSerializado.Deserialize(fs);
+               fs.Close();
+               flag = true;
+            }
+           catch(Exception e)
+            {
+
+           throw new CentralitaException("No se pudo Deserializar el objeto", "Centralita", "Deserializarse",e);
+           }
+           return flag;
 
        }
 
        private bool GuardarEnArchivo(Llamada unaLlamada, bool agrego)
        {
+           bool flag;
+
+           try
+           {
+               StreamWriter sw = new StreamWriter(this._ruta, agrego);
+               sw.Write(unaLlamada);
+               flag = true;
+           }
+           catch (Exception e)
+           { flag = false; }
+
+           return flag;
+
 
        }
 
        public bool Serializarse()
-       {
+        {   
+            bool flag=false;;
+   
+           try
+           {
+            FileStream fs=new FileStream(this._ruta,FileMode.Create);
+            XmlSerializer serializado = new XmlSerializer(typeof(Centralita));
+            serializado.Serialize(fs, this);
+            fs.Close();
+            flag= true;
+           }
 
-       }
+           catch(Exception e)
+           {
+               throw new CentralitaException("No se pudo serializar el objeto", "Centralita", "Serializarse", e);
+           }
+           return flag;                                                
+                                                      
+        }
+   
 
     
     }

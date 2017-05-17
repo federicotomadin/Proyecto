@@ -8,10 +8,10 @@ namespace CentralitaSerializacion
 {
    public interface ISerializable
     {
-       public string RutaDelArchivo { get; set; }
+       string RutaDelArchivo { get; set; }
 
-       public bool DeSerializarse();
+        bool DeSerializarse();
 
-       public bool Serializarse();
+        bool Serializarse();
     }
 }

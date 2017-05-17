@@ -57,6 +57,6 @@ namespace CentralitaSerializacion
         {
             return this.Mostrar();
         }
-    {
+    
     }
 }
