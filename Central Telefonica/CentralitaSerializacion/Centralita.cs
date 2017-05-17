@@ -187,8 +187,8 @@ namespace CentralitaSerializacion
            try
            {
             FileStream fs=new FileStream(this._ruta,FileMode.Create);
-            XmlSerializer serializado = new XmlSerializer(typeof(Centralita));
-            serializado.Serialize(fs, this);
+            XmlSerializer serializado = new XmlSerializer(typeof(String));
+            serializado.Serialize(fs,this.ToString());
             fs.Close();
             flag= true;
            }
