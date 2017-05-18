@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Clase_13
 {
-   public class Caballo:Transporte
+   public class Caballo:Trasporte_Terrestre
    {
        
         private string _raza;
@@ -41,6 +41,12 @@ namespace Clase_13
            Console.WriteLine("El caballo frena hasta");
            return (Convert.ToInt32(EVelocidad.Minima)).ToString();
 
+       }
+
+       public override string Frenar(string condicion)
+       {
+           if (condicion == "frenar") return "frenar";
+           else return "no frena";
        }
 
        public override string Acelerar()

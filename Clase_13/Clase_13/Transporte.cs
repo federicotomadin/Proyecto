@@ -45,6 +45,7 @@ namespace Clase_13
             //Console.WriteLine("El vehiculo frena hasta");
             //return (Convert.ToInt32(EVelocidad.Minima)).ToString();
 
+        public abstract string Frenar(string condicion);
 
 
         public virtual string Acelerar()

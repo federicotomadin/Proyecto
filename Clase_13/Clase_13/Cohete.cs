@@ -44,6 +44,12 @@ namespace Clase_13
 
        }
 
+       public override string Frenar(string condicion)
+       {
+           if (condicion == "frenar") return "frenar";
+           else return "no frena";
+       }
+
        public override string Acelerar()
        {
 

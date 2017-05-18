@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Clase_13
 {
-   public class Auto:Transporte
+   public class Auto:Trasporte_Terrestre
     {
        
        private int _cantRuedas;
@@ -40,6 +40,12 @@ namespace Clase_13
          
            return "El auto frena hasta" + (Convert.ToInt32(EVelocidad.Minima)).ToString();
 
+       }
+
+       public override string Frenar(string condicion)
+       {
+           if (condicion == "frenar") return "frenar";
+           else return "no frena";
        }
 
 
