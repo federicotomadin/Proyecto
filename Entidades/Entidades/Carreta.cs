@@ -19,6 +19,7 @@ namespace Entidades
 
        public double CalcularImpuesto()
        {
+           return base._precio * 0.18;
  
        }
 

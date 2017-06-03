@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-   public class Deportivo:Auto
+   public class Deportivo:Auto,IAFIP
     {
        private int _cabalosFuerza;
 
@@ -16,6 +16,12 @@ namespace Entidades
 
            this._cabalosFuerza = hp;
  
+       }
+
+
+       public double CalcularImpuesto()
+       {
+           return base._precio * 0.28;
        }
     }
 }
