@@ -17,11 +17,9 @@ namespace Entidades
        }
 
 
-       public void MostrarPrecio()
-       {
-           Console.WriteLine(this._precio);
+     
 
-       }
+       public abstract void MostrarPrecio();
 
 
 

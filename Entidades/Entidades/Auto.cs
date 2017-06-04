@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Auto:Vehiculo
+    public abstract class Auto:Vehiculo
     {
-        private string _patente;
+        protected string _patente;
 
 
         public Auto(double precio, string patente):base(precio)
@@ -17,10 +17,9 @@ namespace Entidades
  
         }
 
+        public abstract void MostrarPatente();
 
-        public void MostrarPatente()
-        {
-            Console.WriteLine(this._patente);
-        }
+
+    
     }
 }

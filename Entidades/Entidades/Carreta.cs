@@ -17,11 +17,15 @@ namespace Entidades
        }
 
 
+       public override void MostrarPrecio()
+       {
+           Console.WriteLine(this._precio);
+       }
 
 
        double IARBA.CalcularImpuesto()
        {
-           return base._precio * 0.18;
+           return base._precio * 1.18;
        }
     }
 }

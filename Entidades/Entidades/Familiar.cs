@@ -8,7 +8,7 @@ namespace Entidades
 {
    public class Familiar:Auto
     {
-       private int _cantAsientos;
+       protected  int _cantAsientos;
 
        public Familiar(double precio, string patente, int cantidadAsientos)
            : base(precio, patente)
@@ -16,6 +16,15 @@ namespace Entidades
            this._cantAsientos = cantidadAsientos;
        }
 
+       public override void MostrarPatente()
+       {
+           Console.WriteLine(this._patente);
+       }
+
+       public override void MostrarPrecio()
+       {
+           Console.WriteLine(this._precio);
+       }
 
 
     }

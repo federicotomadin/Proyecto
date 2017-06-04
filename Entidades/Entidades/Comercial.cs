@@ -17,5 +17,11 @@ namespace Entidades
             this._capacidadPasajeros = pasajeros;
  
         }
+
+
+        public double CalcularImpuesto()
+        {
+            return this._precio * 1.25;
+        }
     }
 }

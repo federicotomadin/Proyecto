@@ -8,7 +8,7 @@ namespace Entidades
 {
     public class Avion : Vehiculo, IAFIP, IARBA
     {
-        private double _velocidadMaxima;
+        protected  double _velocidadMaxima;
 
 
 
@@ -18,16 +18,21 @@ namespace Entidades
             this._velocidadMaxima = velMax;
         }
 
+        public override void MostrarPrecio()
+        {
+            Console.WriteLine(this._precio);
+        }
+
 
         double IAFIP.CalcularImpuesto()
         {
-            return base._precio * 0.23;
+            return base._precio * 1.23;
         }
 
 
         double IARBA.CalcularImpuesto()
         {
-            return base._precio * 0.27;
+            return base._precio * 1.27;
         }
     }
 }

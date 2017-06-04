@@ -28,16 +28,7 @@ namespace LIbrerias
             this._raza = raza;
         }
 
-        //public static bool operator ==(Mascota m1, Mascota m2)
-        //{
-        //    if (m1.Nombre == m2.Nombre && m1.Raza == m2.Raza) return true;
-        //    else return false;
-        //}
-
-        //public static bool operator !=(Mascota m1, Mascota m2)
-        //{
-        //    return !(m1 == m2);
-        //}
+     
 
 
         protected virtual string DatosCompletos()
