@@ -11,7 +11,7 @@ namespace Entidades
        private int _cantAsientos;
 
        public Familiar(double precio, string patente, int cantidadAsientos)
-           : base(precio, cantidadAsientos)
+           : base(precio, patente)
        {
            this._cantAsientos = cantidadAsientos;
        }

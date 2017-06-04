@@ -17,13 +17,11 @@ namespace Entidades
        }
 
 
-       public double CalcularImpuesto()
+
+
+       double IARBA.CalcularImpuesto()
        {
            return base._precio * 0.18;
- 
        }
-
-
-
     }
 }

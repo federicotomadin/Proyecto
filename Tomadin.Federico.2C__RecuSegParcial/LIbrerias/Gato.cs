@@ -33,8 +33,7 @@ namespace LIbrerias
 
         public override bool Equals(object obj)
         {
-            if (obj is Gato) return true;
-            else return false;
+          return  base.Equals(obj);
         }
 
         protected override string DatosCompletos()
