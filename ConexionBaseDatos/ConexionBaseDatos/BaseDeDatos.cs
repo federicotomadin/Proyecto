@@ -64,5 +64,33 @@ namespace ConexionBaseDatos
           return persona;
          
       }
+
+
+      public bool Agregar(Persona p)
+      {
+         
+
+          try
+          {
+
+              this._comando.CommandText = "INSERT INTO Persona (apellido,nombre,edad) VALUES('" + p.apellido + "','" + p.nombre + "'," + p.edad + ")";
+              this._conexion.Open();
+              this._comando.ExecuteNonQuery();
+              this._conexion.Close();
+
+
+          }
+          catch (SqlException)
+          {
+              return false;
+
+          }
+          
+
+              return true;
+      }
+
+
+
     }
 }

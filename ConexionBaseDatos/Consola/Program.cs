@@ -25,6 +25,30 @@ namespace Consola
 
             Console.ReadLine();
 
+
+            Persona persona = new Persona();
+            persona.apellido = "Tomadin";
+            persona.nombre = "federico";
+            persona.edad = 30;
+
+            if (baseDatos.Agregar(persona))
+            {
+                Console.WriteLine("se agrego");
+            }
+
+            Console.ReadLine();
+
+          
+            Console.ReadLine();
+
+           foreach (Persona item in padron)
+            {
+
+                Console.WriteLine(item.ToString());
+            }
+
+           Console.ReadLine();
+
         }
     }
 }
