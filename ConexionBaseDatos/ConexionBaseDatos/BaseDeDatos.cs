@@ -55,10 +55,10 @@ namespace ConexionBaseDatos
               this._conexion.Close();
 
           }
-          catch (SqlException)
+          catch (Exception e)
           {
 
-              throw;
+              Console.WriteLine(e.Message);
           }
 
           return persona;
@@ -68,27 +68,87 @@ namespace ConexionBaseDatos
 
       public bool Agregar(Persona p)
       {
-         
+          bool flag = false;
 
           try
           {
 
-              this._comando.CommandText = "INSERT INTO Persona (apellido,nombre,edad) VALUES('" + p.apellido + "','" + p.nombre + "'," + p.edad + ")";
+              this._comando.CommandText = "INSERT INTO Persona (apellido,nombre,edad) VALUES('" +  "'" +p.apellido + "','" + p.nombre + "'," + p.edad.ToString() + ")";
               this._conexion.Open();
               this._comando.ExecuteNonQuery();
               this._conexion.Close();
-
+              flag = true;
 
           }
           catch (SqlException)
           {
-              return false;
+              flag = false;
 
           }
-          
+          finally
+              {
+                  if(flag) this._conexion.Close();
+              }
 
-              return true;
+          return flag;
+              
       }
+
+
+      public bool Modificar(Persona p)
+      {
+          bool flag = false;
+
+        
+          string sql="UPDATE Persona SET nombre= '" + p.nombre + "', apellido= '" + p.apellido + "', edad= " + p.edad.ToString() + "WHERE id= " + p.id.ToString();
+
+          try
+          {
+              this._comando.CommandText = sql;
+              this._conexion.Open();
+              this._comando.ExecuteNonQuery();
+              flag = true;
+          }
+          catch (Exception)
+          {
+
+              flag = false;
+          }
+          finally
+          {
+              if (flag) this._conexion.Close();
+          }
+          return flag;
+
+      }
+
+      public bool Eliminar(Persona p)
+      {
+          bool flag = true;
+
+          string sql = "DELETE FROM Persona WHERE id " + p.id.ToString();
+
+          try
+          {
+              this._comando.CommandText = sql;
+              this._conexion.Open();
+              this._comando.ExecuteNonQuery();
+              flag = true;
+
+          }
+          catch (Exception)
+          {
+
+              flag = false;
+          }
+          finally
+          {
+              if (flag) this._conexion.Close();
+          }
+      }
+
+
+
 
 
 
