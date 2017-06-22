@@ -89,7 +89,7 @@ namespace Test
             try
             {
 
-                Program.DeSerializarPersona();
+                Console.WriteLine(Program.DeSerializarPersona());
             }
             catch (Exception)
             {

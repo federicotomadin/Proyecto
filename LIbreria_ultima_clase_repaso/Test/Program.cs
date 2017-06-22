@@ -16,7 +16,7 @@ namespace Test
 
             try
             {
-                using (StreamWriter txt = new StreamWriter(@"D:\\Exceptiones.log", false))
+                using (StreamWriter txt = new StreamWriter(@"C:\\Exceptiones.log", false))
                 {
 
                    
@@ -40,6 +40,8 @@ namespace Test
             Goma goma1 = new Goma(true);
             Goma goma2 = new Goma(false);
 
+           
+
             try
             {
                 utiles += lapicera1;
@@ -54,10 +56,11 @@ namespace Test
                 Program.Guardar();
             }
 
-
-            utiles.SerializarXml(@"D:\\Cartuchera.xml");
            
-            string ruta=@"D:\\Goma.xml";
+            utiles.SerializarXml(@"C:\\Cartuchera.xml");
+            //Console.WriteLine(utiles.Desderializar(@"C:\\Cartuchera.xml"));
+           
+            string ruta=@"C:\\Goma.xml";
 
             utiles.Extencion(ruta);
 

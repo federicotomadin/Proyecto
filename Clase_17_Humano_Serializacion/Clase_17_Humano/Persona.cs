@@ -32,7 +32,7 @@ namespace Clase_17_Humano
 
            try
            {
-              using (StreamWriter txt = new StreamWriter(@"D:\Persona.txt", false))
+              using (StreamWriter txt = new StreamWriter(@"C:\Persona.txt", false))
              {
 
                txt.WriteLine(this.nombre);
@@ -51,7 +51,7 @@ namespace Clase_17_Humano
          
            try
            {
-               StreamReader reader = new StreamReader(@"D:\Pna.txt", true);
+               StreamReader reader = new StreamReader(@"C:\Pna.txt", true);
                
                
                    texto = reader.ReadToEnd();

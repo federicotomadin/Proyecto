@@ -108,7 +108,7 @@ namespace LIbreria
             }             
         }
 
-        public bool Desderializar(string dato)
+        public string Desderializar(string dato)
         {
             try
             {
@@ -116,14 +116,15 @@ namespace LIbreria
                 {
                     XmlSerializer xml = new XmlSerializer(typeof(Cartuchera<T>));
                     Cartuchera<T> cartuchera = (Cartuchera<T>)xml.Deserialize(leeArchivo);
+                 
                     Console.WriteLine("Se deserializo correctamente");
-                    return true;
+                    return cartuchera.ToString();
                 }
             }
             catch (Exception)
             {
-                Console.WriteLine("No se puedo deserializar");
-                return false;
+                return "No se puedo deserializar";
+                
             }
         }
 
@@ -138,7 +139,7 @@ namespace LIbreria
 
 
 
-             this._comando.CommandText = "SELECT * FROM elementos TABLA ORDER BY id ";
+             this._comando.CommandText = "SELECT * FROM elementos WHERE color=violeta ";
            
 
 

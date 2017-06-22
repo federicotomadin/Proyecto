@@ -9,6 +9,6 @@ namespace LIbreria
    public interface ISerializable
     {
        bool SerializarXml(string dato);
-       bool Desderializar(string dato);
+       string Desderializar(string dato);
     }
 }
